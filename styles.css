@@ -1,0 +1,28 @@
+
+
+html {
+  font-size: 62.5%; /*62.5% = 10px; to make it easier to calculate REM units.*/
+}
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  height: 100vh;
+  color: white;
+}
+#clock {max-width: 600px;}
+
+/* for smaller screens below 700px */
+@media only screen and (max-width: 700px) {
+  body {font-size: 1.8rem;}
+}
+
+/*for smaller screens below 300px*/
+@media only screen and (max-width: 300px) {
+  body {font-size: 1.6rem;}
+}
